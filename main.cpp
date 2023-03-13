@@ -62,13 +62,13 @@ struct State {
 			if (DFS(i, j, 0, DFS)) return 1;
 		return 0;
 	}
-    int GetBlankScore() const {
-        int ret = 8500;
-        for(int i=0;i<=8500;i++){
-            if(!Check(i))ret--;
-        }
-        return ret;
-    }
+	int GetBlankScore() const {
+		int ret = 8500;
+		for(int i=0;i<=8500;i++){
+			if(!Check(i))ret--;
+		}
+		return ret;
+	}
 	int GetScore() const {
 		int ret = 1;
 		for (; Check(ret); ret++);
@@ -93,17 +93,17 @@ string DB[SZ][8] = {
 
 
 int ThreadSA(int stateID, int lim = 10'000, double T = 10.0, double d = 0.9999) {
-    int ret = cur[stateID].GetScore(), score = ret;
-    for (int i = 0, t = 1; i < lim; i++, T *= d) {
-        totalModif++;
-        if(totalModif > lim*SZ*perc/10){
-            perc+=1;
-            gotoxy(45,lineNum-1);
-            printf("Loading : %d percent done...\t\t",(10*(perc-1)));
-            gotoxy(45,lineNum);
-            printf("%d / %d\t\t",totalModif,lim*SZ);
-            T*=0.9;
-        }
+	int ret = cur[stateID].GetScore(), score = ret;
+	for (int i = 0, t = 1; i < lim; i++, T *= d) {
+		totalModif++;
+		if(totalModif > lim*SZ*perc/10){
+			perc+=1;
+			gotoxy(45,lineNum-1);
+			printf("Loading : %d percent done...\t\t",(10*(perc-1)));
+			gotoxy(45,lineNum);
+			printf("%d / %d\t\t",totalModif,lim*SZ);
+			T*=0.9;
+        	}
 		State nxt = cur[stateID];
 
 		//int nx=xd(generator),ny=yd(generator),nv=vd(generator);
@@ -119,21 +119,21 @@ int ThreadSA(int stateID, int lim = 10'000, double T = 10.0, double d = 0.9999) 
 		if (p > np) score = nxt_score, cur[stateID] = nxt;
 		ret = max(ret, score);
 	}
-    ended[stateID] = true;
-    return ret;
+	ended[stateID] = true;
+    	return ret;
 }
 void ThreadSAAlgorithm(){
-    for(int i=0;i<SZ;i++){
-        st[i].SetState(DB[i]);
-        mx[i] = st[i].GetScore();
-        cout<<"Case #"<<i+1<<" Score : "<<st[i].GetScore();cout<<"\n";lineNum++;
-    }
+	for(int i=0;i<SZ;i++){
+		st[i].SetState(DB[i]);
+		mx[i] = st[i].GetScore();
+		cout<<"Case #"<<i+1<<" Score : "<<st[i].GetScore();cout<<"\n";lineNum++;
+	}
 
-    double T = 5.0, d = 0.9999; int lim = 20'000;
-    cout<<"Input Temperature : ";
-    cin>>T;lineNum++;
+	double T = 5.0, d = 0.9999; int lim = 20'000;
+	cout<<"Input Temperature : ";
+	cin>>T;lineNum++;
 	if(cin.fail()){
-        T = 10.0;
+		T = 10.0;
 	}
 	cout<<"T : "<<T<<" lim : "<<lim;cout<<"\n";lineNum++;
 	double orgT = T,orglim = lim;
@@ -141,46 +141,45 @@ void ThreadSAAlgorithm(){
 	for (int c = 0; ; c++) {
         totalModif = 0, perc = 1;
         gotoxy(1,lineNum);
-		cout << "cur_T : " << T << '\n';lineNum++;
-		cout << "cur_lim : " << lim << '\n';lineNum++;
-		gotoxy(45,lineNum-2);
+	cout << "cur_T : " << T << '\n';lineNum++;
+	cout << "cur_lim : " << lim << '\n';lineNum++;
+	gotoxy(45,lineNum-2);
         printf("Depth : %d",c+1);
-		vector<thread> works;
+	vector<thread> works;
 
-		for(int i=0;i<SZ;i++){
-            cur[i] = st[i];
-            ended[i] = false;
-            works.push_back(thread(ThreadSA,i,lim,T,d));
+	for(int i=0;i<SZ;i++){
+		cur[i] = st[i];
+    		ended[i] = false;
+            	works.push_back(thread(ThreadSA,i,lim,T,d));
+	}
+	for(int i=0;i<SZ;i++){
+    		works[i].join();
+	}
+	bool flag = false;
+	do{
+    		flag = true;
+            	for(int i=0;i<SZ;i++){
+		flag = flag && ended[i];
 		}
-		for(int i=0;i<SZ;i++){
-            works[i].join();
-		}
-		bool flag = false;
-		do{
-            flag = true;
-            for(int i=0;i<SZ;i++){
-                flag = flag && ended[i];
-            }
-
-		}while(!flag);
+	}while(!flag);
         gotoxy(1,lineNum);
         int progressed = 0;
-		for (int idx = 0; idx < SZ; idx++) {
-			int score = cur[idx].GetScore();
-			cout <<"Case #"<<idx+1<<" Score : " << mx[idx] << " -> " << score;cout<<"\n";lineNum++;
+	for (int idx = 0; idx < SZ; idx++) {
+		int score = cur[idx].GetScore();
+		cout <<"Case #"<<idx+1<<" Score : " << mx[idx] << " -> " << score;cout<<"\n";lineNum++;
 
-			if (mx[idx] >= score){
-                continue;
-			}
-			mx[idx] = score;
-			progressed++;
+		if (mx[idx] >= score){
+                	continue;
+		}
+		mx[idx] = score;
+		progressed++;
 
-			st[idx].SetState(cur[idx]);
-			for (int i = 0; i < 8; i++) {
-                cout<<"    \"";
-				for (int j = 0; j < 14; j++) cout << (st[idx]).v[i][j];
-                cout<<"\"";
-                if(i!=7)cout<<",";
+		st[idx].SetState(cur[idx]);
+		for (int i = 0; i < 8; i++) {
+                	cout<<"    \"";
+			for (int j = 0; j < 14; j++) cout << (st[idx]).v[i][j];
+                	cout<<"\"";
+                	if(i!=7)cout<<",";
 				cout << '\n';lineNum++;
 			}
 		}
@@ -190,8 +189,8 @@ void ThreadSAAlgorithm(){
 		if (lim < 300'000) lim *= 1.5;
 		else lim = lim;
 		if (progressed*3 >= SZ){
-            T = orgT;
-            lim = orglim;
+            		T = orgT;
+            		lim = orglim;
 		}
 	}
 }
