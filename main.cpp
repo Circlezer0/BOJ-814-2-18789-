@@ -77,7 +77,7 @@ struct State {
 };
 
 
-constexpr int SZ = 6;
+constexpr int SZ = 1;
 State st[SZ];
 int mx[SZ];
 int lineNum = 1;
@@ -86,66 +86,6 @@ bool ended[SZ];
 State cur[SZ];
 
 string DB[SZ][8] = {
-{
-    "96884667538681",
-    "95427425403416",
-    "71379321369769",
-    "78091637127502",
-    "14825865402830",
-    "61452780130913",
-    "28301937216452",
-    "79059144564283"
-},
-{
-    "16679832458122",
-    "84300584269874",
-    "82412617436907",
-    "39672169312013",
-    "93057482524531",
-    "52183753065486",
-    "45812914371904",
-    "37049707822032"
-},
-{
-    "64598665034635",
-    "83527424503418",
-    "21379321869769",
-    "68091637127502",
-    "94825865402830",
-    "21452780130912",
-    "18301937216453",
-    "77459144564233"
-},
-{
-    "45599832071321",
-    "48300584269874",
-    "02412617436907",
-    "19672169312013",
-    "53057482524531",
-    "32183953065486",
-    "50812914371968",
-    "71468200822356"
-},
-{
-    "64381548832212",
-    "63427402513413",
-    "11379320169769",
-    "78091637627502",
-    "96825865402834",
-    "21452780130914",
-    "74301932716455",
-    "09559114538233"
-},
-{
-    "39911052877218",
-    "13427590116058",
-    "21372391330626",
-    "98091637627537",
-    "76825825402867",
-    "21452748130914",
-    "84301994616451",
-    "77837532263253"
-}
 };
 
 
@@ -153,13 +93,7 @@ string DB[SZ][8] = {
 
 
 int ThreadSA(int stateID, int lim = 10'000, double T = 10.0, double d = 0.9999) {
-    /*static thread_local mt19937 generator;
-    uniform_int_distribution<int> xd(0,7);
-    uniform_int_distribution<int> yd(0,13);
-    uniform_int_distribution<int> vd(0,9);
-    uniform_real_distribution<double> pd(0,1);*/
-
-	int ret = cur[stateID].GetScore(), score = ret;
+    int ret = cur[stateID].GetScore(), score = ret;
     for (int i = 0, t = 1; i < lim; i++, T *= d) {
         totalModif++;
         if(totalModif > lim*SZ*perc/10){
@@ -186,12 +120,10 @@ int ThreadSA(int stateID, int lim = 10'000, double T = 10.0, double d = 0.9999) 
 		ret = max(ret, score);
 	}
     ended[stateID] = true;
-	return ret;
+    return ret;
 }
 void ThreadSAAlgorithm(){
     for(int i=0;i<SZ;i++){
-        //State a;
-        //st[i] = a;
         st[i].SetState(DB[i]);
         mx[i] = st[i].GetScore();
         cout<<"Case #"<<i+1<<" Score : "<<st[i].GetScore();cout<<"\n";lineNum++;
