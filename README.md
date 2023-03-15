@@ -1,5 +1,9 @@
 # BOJ 814-2 (18789)
-https://www.acmicpc.net/problem/18789
+문제 링크 : https://www.acmicpc.net/problem/18789
+
+글꼴 링크 : https://www.jetbrains.com/lp/mono/
+
+코드 블럭 : https://www.fosshub.com/Code-Blocks.html?dwl=codeblocks-20.03mingw-setup.exe
 
 Simulated annealing을 multi thread 환경에서 돌림
 
