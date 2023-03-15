@@ -1,0 +1,407 @@
+Case #1 Score : 5570
+Case #2 Score : 4958
+Case #3 Score : 4905
+Case #4 Score : 5098
+Input Temperature : 15
+T : 15 lim : 20000
+cur_T : 15                                  Depth : 1
+cur_lim : 20000                             Loading : 90 percent done...
+Case #1 Score : 5570 -> 5596                72010 / 80000
+    "02763567252453",
+    "87219216084234",
+    "85497411307906",
+    "96873049519581",
+    "32615605281648",
+    "03251268348734",
+    "16483749130255",
+    "47957302702140"
+Case #2 Score : 4958 -> 4955
+Case #3 Score : 4905 -> 4957
+    "94062437096366",
+    "29714916243421",
+    "92379312909701",
+    "86592037817859",
+    "74618608451635",
+    "10481365235927",
+    "20352437120487",
+    "83596244804139"
+Case #4 Score : 5098 -> 5328
+    "94660679574301",
+    "96725420483419",
+    "91359321069562",
+    "70891635725783",
+    "64027067482038",
+    "21472508138917",
+    "10381935216476",
+    "56879144564233"
+cur_T : 15                                  Depth : 2
+cur_lim : 20000                             Loading : 90 percent done...
+Case #1 Score : 5596 -> 5596                72004 / 80000
+Case #2 Score : 4958 -> 4966
+    "17769023480133",
+    "04255804379064",
+    "03413716427956",
+    "29763179213512",
+    "92586403834821",
+    "83102682578407",
+    "48013914261954",
+    "26549656033523"
+Case #3 Score : 4957 -> 4966
+    "94761430796366",
+    "19024926143412",
+    "91309321979072",
+    "56891730520589",
+    "04625675482638",
+    "27452368138910",
+    "17381430217450",
+    "53896144574239"
+Case #4 Score : 5328 -> 5328
+cur_T : 15                                  Depth : 3
+cur_lim : 20000                             Loading : 90 percent done...
+Case #1 Score : 5596 -> 5596                72006 / 80000
+Case #2 Score : 4966 -> 4966
+Case #3 Score : 4966 -> 4975
+    "94082415098188",
+    "29534938241423",
+    "92159132909503",
+    "68792015635679",
+    "54836806473817",
+    "30463187217925",
+    "20172415320465",
+    "61798244604319"
+Case #4 Score : 5328 -> 5390
+    "04558560764182",
+    "05637438491420",
+    "02170132850753",
+    "68902517637691",
+    "54836856493819",
+    "32463789219026",
+    "28192017325465",
+    "75960244754311"
+cur_T : 15                                  Depth : 4
+cur_lim : 20000                             Loading : 90 percent done...
+Case #1 Score : 5596 -> 5596                72005 / 80000
+Case #2 Score : 4966 -> 4966
+Case #3 Score : 4975 -> 4966
+Case #4 Score : 5390 -> 5390
+cur_T : 19.5                                Depth : 5
+cur_lim : 30000                             Loading : 90 percent done...
+Case #1 Score : 5596 -> 5596                108005 / 120000
+Case #2 Score : 4966 -> 4968
+    "15579823468133",
+    "84200684359874",
+    "83413517425907",
+    "29573159213012",
+    "92067483634621",
+    "63182762056485",
+    "46813914271904",
+    "27049707833023"
+Case #3 Score : 4975 -> 4975
+Case #4 Score : 5390 -> 5390
+cur_T : 15                                  Depth : 6
+cur_lim : 20000                             Loading : 90 percent done...
+Case #1 Score : 5596 -> 5596                72005 / 80000
+Case #2 Score : 4968 -> 4965
+Case #3 Score : 4975 -> 4975
+Case #4 Score : 5390 -> 5390
+cur_T : 19.5                                Depth : 7
+cur_lim : 30000                             Loading : 90 percent done...
+Case #1 Score : 5596 -> 5596                108003 / 120000
+Case #2 Score : 4968 -> 4968
+Case #3 Score : 4975 -> 4975
+Case #4 Score : 5390 -> 5390
+cur_T : 25.35                               Depth : 8
+cur_lim : 45000                             Loading : 90 percent done...
+Case #1 Score : 5596 -> 5596                162002 / 180000
+Case #2 Score : 4968 -> 4968
+Case #3 Score : 4975 -> 4960
+Case #4 Score : 5390 -> 5390
+cur_T : 32.955                              Depth : 9
+cur_lim : 67500                             Loading : 90 percent done...
+Case #1 Score : 5596 -> 5596                243004 / 270000
+Case #2 Score : 4968 -> 4960
+Case #3 Score : 4975 -> 4977
+    "94673420697277",
+    "39014917342431",
+    "93209213969061",
+    "57893620510589",
+    "04715765481728",
+    "16451278328930",
+    "36283420136450",
+    "52897344564129"
+Case #4 Score : 5390 -> 5390
+cur_T : 15                                  Depth : 10
+cur_lim : 20000                             Loading : 90 percent done...
+Case #1 Score : 5596 -> 5590                72002 / 80000
+Case #2 Score : 4968 -> 4977
+    "15579623486133",
+    "64200864359674",
+    "63413517425907",
+    "29573159213012",
+    "92087463834821",
+    "83162782058465",
+    "48613914271904",
+    "27049707633023"
+Case #3 Score : 4977 -> 4977
+Case #4 Score : 5390 -> 5390
+cur_T : 15                                  Depth : 11
+cur_lim : 20000                             Loading : 90 percent done...
+Case #1 Score : 5596 -> 5596                72003 / 80000
+Case #2 Score : 4977 -> 4958
+Case #3 Score : 4977 -> 4977
+Case #4 Score : 5390 -> 5390
+cur_T : 19.5                                Depth : 12
+cur_lim : 30000                             Loading : 90 percent done...
+Case #1 Score : 5596 -> 5596                108006 / 120000
+Case #2 Score : 4977 -> 4977
+Case #3 Score : 4977 -> 4977
+Case #4 Score : 5390 -> 5390
+cur_T : 25.35                               Depth : 13
+cur_lim : 45000                             Loading : 90 percent done...
+Case #1 Score : 5596 -> 5596                162003 / 180000
+Case #2 Score : 4977 -> 4977
+Case #3 Score : 4977 -> 4977
+Case #4 Score : 5390 -> 5390
+cur_T : 32.955                              Depth : 14
+cur_lim : 67500                             Loading : 90 percent done...
+Case #1 Score : 5596 -> 5596                243002 / 270000
+Case #2 Score : 4977 -> 4977
+Case #3 Score : 4977 -> 4977
+Case #4 Score : 5390 -> 5390
+cur_T : 42.8415                             Depth : 15
+cur_lim : 101250                            Loading : 90 percent done...
+Case #1 Score : 5596 -> 5596                364503 / 405000
+Case #2 Score : 4977 -> 4977
+Case #3 Score : 4977 -> 4975
+Case #4 Score : 5390 -> 5390
+cur_T : 55.694                              Depth : 16
+cur_lim : 151875                            Loading : 70 percent done...
+                                            425252 / 607500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Case #1 Score : 5597
+Case #2 Score : 4977
+Case #3 Score : 5367
+Case #4 Score : 5439
+Input Temperature : 160
+T : 160 lim : 20000
+cur_T : 160                                 Depth : 1
+cur_lim : 20000                             Loading : 90 percent done...
+Case #1 Score : 5597 -> 5027                72004 / 80000
+Case #2 Score : 4977 -> 4788
+Case #3 Score : 5367 -> 5240
+Case #4 Score : 5439 -> 5115
+cur_T : 160                                 Depth : 2
+cur_lim : 30000                             Loading : 90 percent done...
+Case #1 Score : 5597 -> 5596                108003 / 120000
+Case #2 Score : 4977 -> 3357
+Case #3 Score : 5367 -> 5167
+Case #4 Score : 5439 -> 2267
+cur_T : 160                                 Depth : 3
+cur_lim : 45000                             Loading : 90 percent done...
+Case #1 Score : 5597 -> 5596                162079 / 180000
+Case #2 Score : 4977 -> 4387
+Case #3 Score : 5367 -> 5098
+Case #4 Score : 5439 -> 5439
+cur_T : 160                                 Depth : 4
+cur_lim : 67500                             Loading : 90 percent done...
+Case #1 Score : 5597 -> 5596                243004 / 270000
+Case #2 Score : 4977 -> 4377
+Case #3 Score : 5367 -> 4920
+Case #4 Score : 5439 -> 5336
+cur_T : 160                                 Depth : 5
+cur_lim : 101250                            Loading : 90 percent done...
+Case #1 Score : 5597 -> 5598                364502 / 405000
+    "82073578252453",
+    "58219217064232",
+    "65498401308907",
+    "97683049519561",
+    "32715705261746",
+    "03251276346834",
+    "17463849130255",
+    "58958302802140"
+Case #2 Score : 4977 -> 3644
+Case #3 Score : 5367 -> 5236
+Case #4 Score : 5439 -> 5428
+cur_T : 160                                 Depth : 6
+cur_lim : 20000                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5596                72002 / 80000
+Case #2 Score : 4977 -> 4004
+Case #3 Score : 5367 -> 4965
+Case #4 Score : 5439 -> 4467
+cur_T : 160                                 Depth : 7
+cur_lim : 30000                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5596                108012 / 120000
+Case #2 Score : 4977 -> 4520
+Case #3 Score : 5367 -> 5138
+Case #4 Score : 5439 -> 4755
+cur_T : 160                                 Depth : 8
+cur_lim : 45000                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5596                162002 / 180000
+Case #2 Score : 4977 -> 4489
+Case #3 Score : 5367 -> 4905
+Case #4 Score : 5439 -> 5330
+cur_T : 160                                 Depth : 9
+cur_lim : 67500                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5596                243003 / 270000
+Case #2 Score : 4977 -> 4316
+Case #3 Score : 5367 -> 5439
+    "91805147904900",
+    "29731320814123",
+    "92479432989783",
+    "50692847537569",
+    "71035085163046",
+    "38153406246924",
+    "52462147328158",
+    "21976071581347"
+Case #4 Score : 5439 -> 5439
+cur_T : 160                                 Depth : 10
+cur_lim : 20000                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5596                72004 / 80000
+Case #2 Score : 4977 -> 4550
+Case #3 Score : 5439 -> 5099
+Case #4 Score : 5439 -> 4330
+cur_T : 160                                 Depth : 11
+cur_lim : 30000                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5596                108004 / 120000
+Case #2 Score : 4977 -> 4788
+Case #3 Score : 5439 -> 5087
+Case #4 Score : 5439 -> 4577
+cur_T : 160                                 Depth : 12
+cur_lim : 45000                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5596                162006 / 180000
+Case #2 Score : 4977 -> 4450
+Case #3 Score : 5439 -> 5388
+Case #4 Score : 5439 -> 4884
+cur_T : 160                                 Depth : 13
+cur_lim : 67500                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5590                243004 / 270000
+Case #2 Score : 4977 -> 4977
+Case #3 Score : 5439 -> 5225
+Case #4 Score : 5439 -> 5429
+cur_T : 160                                 Depth : 14
+cur_lim : 101250                            Loading : 90 percent done...
+Case #1 Score : 5598 -> 5586                364506 / 405000
+Case #2 Score : 4977 -> 4224
+Case #3 Score : 5439 -> 5287
+Case #4 Score : 5439 -> 4986
+cur_T : 160                                 Depth : 15
+cur_lim : 151875                            Loading : 90 percent done...
+Case #1 Score : 5598 -> 5598                546753 / 607500
+Case #2 Score : 4977 -> 3669
+Case #3 Score : 5439 -> 4788
+Case #4 Score : 5439 -> 5437
+cur_T : 160                                 Depth : 16
+cur_lim : 227812                            Loading : 90 percent done...
+Case #1 Score : 5598 -> 5598                820127 / 911248
+Case #2 Score : 4977 -> 4276
+Case #3 Score : 5439 -> 5377
+Case #4 Score : 5439 -> 5439
+cur_T : 160                                 Depth : 17
+cur_lim : 341718                            Loading : 90 percent done...
+Case #1 Score : 5598 -> 5598                1230188 / 1366872
+Case #2 Score : 4977 -> 4994
+    "47764224056084",
+    "69256058174691",
+    "31831739827459",
+    "94791374231532",
+    "12509861418023",
+    "51362902570847",
+    "45631430293489",
+    "82884168461605"
+Case #3 Score : 5439 -> 5225
+Case #4 Score : 5439 -> 5335
+cur_T : 160                                 Depth : 18
+cur_lim : 20000                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5596                72948 / 80000
+Case #2 Score : 4994 -> 5005
+    "53863443506750",
+    "68406507273692",
+    "12712819748309",
+    "93892183412014",
+    "24059762327541",
+    "02164954085738",
+    "30612315491398",
+    "74773262362976"
+Case #3 Score : 5439 -> 4986
+Case #4 Score : 5439 -> 5439
+cur_T : 160                                 Depth : 19
+cur_lim : 20000                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5596                72011 / 80000
+Case #2 Score : 5005 -> 4490
+Case #3 Score : 5439 -> 2944
+Case #4 Score : 5439 -> 5127
+cur_T : 160                                 Depth : 20
+cur_lim : 30000                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5580                108001 / 120000
+Case #2 Score : 5005 -> 2607
+Case #3 Score : 5439 -> 5088
+Case #4 Score : 5439 -> 5439
+cur_T : 160                                 Depth : 21
+cur_lim : 45000                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5596                162005 / 180000
+Case #2 Score : 5005 -> 4966
+Case #3 Score : 5439 -> 5217
+Case #4 Score : 5439 -> 5428
+cur_T : 160                                 Depth : 22
+cur_lim : 67500                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5596                243003 / 270000
+Case #2 Score : 5005 -> 5445
+    "92872332957695",
+    "78357956162701",
+    "41641840638250",
+    "02801482341543",
+    "13590671216934",
+    "51473093589628",
+    "05741249304258",
+    "63662175271005"
+Case #3 Score : 5439 -> 4895
+Case #4 Score : 5439 -> 5439
+cur_T : 160                                 Depth : 23
+cur_lim : 20000                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5596                72002 / 80000
+Case #2 Score : 5445 -> 5286
+Case #3 Score : 5439 -> 5336
+Case #4 Score : 5439 -> 5436
+cur_T : 160                                 Depth : 24
+cur_lim : 30000                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5596                108005 / 120000
+Case #2 Score : 5445 -> 5445
+Case #3 Score : 5439 -> 5097
+Case #4 Score : 5439 -> 5439
+cur_T : 160                                 Depth : 25
+cur_lim : 45000                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 4765                162004 / 180000
+Case #2 Score : 5445 -> 5445
+Case #3 Score : 5439 -> 5386
+Case #4 Score : 5439 -> 5329
+cur_T : 160                                 Depth : 26
+cur_lim : 67500                             Loading : 90 percent done...
+Case #1 Score : 5598 -> 5598                243005 / 270000
+Case #2 Score : 5445 -> 5088
+Case #3 Score : 5439 -> 4930
+Case #4 Score : 5439 -> 5238
+cur_T : 160                                 Depth : 27
+cur_lim : 101250                            Loading : 90 percent done...
+Case #1 Score : 5598 -> 5586                364503 / 405000
+Case #2 Score : 5445 -> 5445
+Case #3 Score : 5439 -> 5287
+Case #4 Score : 5439 -> 4790
+cur_T : 160                                 Depth : 28
+cur_lim : 151875                            Loading : 30 percent done...
+                                            182252 / 607500

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1678546177 source:c:\users\ckiruser\desktop\boj814\main.cpp
+	<bits/stdc++.h>
+	<windows.h>
+
+1678631702 source:c:\users\ckiruser\desktop\boj814\boj814\boj814\main.cpp
+	<bits/stdc++.h>
+	<windows.h>
+
+1678801708 source:c:\users\ckiruser\desktop\boj814_multithread\main.cpp
+	<bits/stdc++.h>
+	<windows.h>
+
