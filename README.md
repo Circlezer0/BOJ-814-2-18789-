@@ -14,6 +14,6 @@ Simulated annealing을 multi thread 환경에서 돌림
 
 
 
-# https://blog.naver.com/tlsdydaud1/222540952603
+### https://blog.naver.com/tlsdydaud1/222540952603
 위 링크의 테크닉 중 수열을 이용한 변형, 두 수 교체 를 이용해 5000점 중반대 점수까지 만들어 냈다.
 그러나 이전과 마찬가지로 5500점에 강하게 수렴하려는 성질이 생겨 또 다른 테크닉을 이용해 봐야 할 것 같다.
